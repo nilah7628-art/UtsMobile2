@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Katalog Produk</string>
+    <string name="title_dashboard">Produk</string>
+    <string name="title_profile">Profil</string>
+    <string name="profile_name">Nila Narandita</string>
+    <string name="label_nama">Nama</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_jurusan">Jurusan</string>
+    <string name="label_program_studi">Program Studi</string>
+    <string name="label_alamat">Alamat</string>
+    <string name="label_matkul">Mata Kuliah</string>
+    <string name="value_nama">Nila Narandita</string>
+    <string name="value_nim">6304240001</string>
+    <string name="value_jurusan">Teknik Informatika</string>
+    <string name="value_program_studi">Rekayasa Perangkat Lunak</string>
+    <string name="value_alamat">Bengkalis, Riau</string>
+    <string name="value_matkul">Pemrograman Mobile II</string>
+</resources>

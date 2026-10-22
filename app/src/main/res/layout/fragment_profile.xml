@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="36dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp">
+        <ImageView android:id="@+id/img_profile" android:layout_width="132dp" android:layout_height="132dp" android:layout_marginTop="20dp" android:contentDescription="Foto profil developer" android:scaleType="centerCrop" android:src="@drawable/profile" />
+        <TextView android:id="@+id/tv_profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="20dp" android:text="Nila Narandita" android:textSize="22sp" android:textStyle="bold" />
+        <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="14dp" app:cardElevation="1dp" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="DATA DIRI" android:textColor="#176B55" android:textSize="12sp" android:textStyle="bold" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="Nama" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_nama" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Nila Narandita" android:textSize="16sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="NIM" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_nim" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="6304240001" android:textSize="16sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Email" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="nilah7628@gmail.com" android:textSize="16sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="No. HP" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_phone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="082386495387" android:textSize="16sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Program Studi" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_program_studi" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rekayasa Perangkat Lunak" android:textSize="16sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Jurusan" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_jurusan" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Teknik Informatika" android:textSize="16sp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Perguruan Tinggi" android:textColor="#667085" android:textSize="12sp" />
+                <TextView android:id="@+id/tv_kampus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Politeknik Negeri Bengkalis" android:textSize="16sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>
